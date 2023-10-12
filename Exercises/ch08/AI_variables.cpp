@@ -9,10 +9,13 @@ struct Point {
 
 int main()
 {
-    int x = blank.x;
+    
     Point blank;
-    blank.x = 3.0;
+    blank.x = 4.0;
     blank.y = 3.0;
+    
+    int x = blank.x;
+
     cout << "(" << blank.x << ", " << blank.y << ")" << endl;
     double distance = blank.x * blank.x + blank.y * blank.y;
 
