@@ -9,7 +9,7 @@ int main()
 {
     Point blank;
     blank.x = 3.0;
-    blank.y = 3.0;
+    blank.y = 4.0;
 
     return 0;
 }
