@@ -1,4 +1,5 @@
-#include "Time.h"
+#include "Time.hpp"
+
 int main() {
     Time current(5, 30, 30.0);
     Time additional(0, 30, 0.0);
